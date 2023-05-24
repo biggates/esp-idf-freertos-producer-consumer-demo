@@ -1,0 +1,20 @@
+repos:
+-   repo: https://e.coding.net/xinxiangsui/github-mirrors/pre-commit-hooks.git
+    rev: v4.4.0
+    hooks:
+    - id: check-merge-conflict
+    - id: check-yaml
+    - id: end-of-file-fixer
+    - id: mixed-line-ending
+    - id: trailing-whitespace
+-   repo: https://e.coding.net/xinxiangsui/github-mirrors/isort.git
+    rev: 5.12.0
+    hooks:
+      - id: isort
+        args: ['--profile', 'black', '--project', 'eaphone', '--filter-files']
+-   repo: https://e.coding.net/xinxiangsui/github-mirrors/mirrors-clang-format.git
+    rev: v16.0.2
+    hooks:
+      - id: clang-format
+        exclude_types:
+          - "json"

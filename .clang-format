@@ -1,0 +1,15 @@
+BasedOnStyle: Google
+Language: Cpp
+AlignConsecutiveAssignments: AcrossComments
+AlignConsecutiveDeclarations: AcrossComments
+AlignConsecutiveMacros: AcrossComments
+AlignOperands: true
+AlignTrailingComments: true
+ColumnLimit: 120
+IndentCaseLabels: false
+IndentWidth: 4
+ReflowComments: false
+SortIncludes: false
+SpacesBeforeTrailingComments: 1
+Standard: Cpp11
+TabWidth: 4

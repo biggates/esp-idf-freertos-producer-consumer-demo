@@ -1,0 +1,7 @@
+# default eol behavior
+* text=lf
+
+*.c text
+*.h text
+*.mk text
+*.txt text
